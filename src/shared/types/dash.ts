@@ -232,7 +232,7 @@ export interface DashTabItemGroupControlData {
     autoHeight: boolean;
     buttonApply: boolean;
     buttonReset: boolean;
-    items: DashTabItemControlData[];
+    items: Record<string, DashTabItemControlData>;
 }
 
 export interface DashTabLayout {
